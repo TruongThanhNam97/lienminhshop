@@ -286,9 +286,6 @@ class ListAccounts extends Component {
               </li>
             </ul>
           </div>
-          <div className="comment_fb">
-            <div className="fb-comments" data-href="https://truongthanhnam97.github.io/lienminhshop" data-width={1110} data-numposts={100} colorscheme="dark" data-colorscheme="dark" data-order-by="reverse_time" />
-          </div>
         </div>
       </div>
     );

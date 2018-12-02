@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import DieuHuongURL from './DieuHuongURL';
 import ImageIllustration from './ImageIllustration';
 import FormBuy from './FormBuy';
+import Fb from './Fb';
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Section1></Section1>
         <Section2></Section2>
         <DieuHuongURL></DieuHuongURL>
+        <Fb></Fb>
         <Footer></Footer>
         <ButtonUp></ButtonUp>
         <FormBuy></FormBuy>
