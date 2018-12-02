@@ -14,22 +14,10 @@ class ListAccounts extends Component {
   }
 
   componentWillMount() {
-    var body = document.getElementsByTagName("body")[0];
+    var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
     script.src = "effect.js";
-    var x = document.createElement("div");
-    x.innerHTML = `<!-- Fb Comment -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=2175297462797217&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-        <!-- Fb Comment -->`;
-    body.appendChild(x);
-    body.appendChild(script);
+    head.appendChild(script);
   }
   toSlug=(str)=>{
      // Chuyển hết sang chữ thường

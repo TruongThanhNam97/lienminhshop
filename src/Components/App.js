@@ -12,9 +12,6 @@ import FormBuy from './FormBuy';
 
 
 class App extends Component {
-  getIdAccount=(data)=>{
-    console.log(data); 
-  }   
   render() {
     return (
       <Router>
@@ -22,7 +19,7 @@ class App extends Component {
         <Menu></Menu>
         <Section1></Section1>
         <Section2></Section2>
-        <DieuHuongURL getIdAccount={(data)=>this.getIdAccount(data)}></DieuHuongURL>
+        <DieuHuongURL></DieuHuongURL>
         <Footer></Footer>
         <ButtonUp></ButtonUp>
         <FormBuy></FormBuy>
