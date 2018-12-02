@@ -19,6 +19,13 @@ class ListAccounts extends Component {
     script.src = "effect.js";
     head.appendChild(script);
   }
+  componentDidMount() {
+    var head = document.getElementsByTagName("head")[0];
+    var script = document.createElement("script");
+    script.src = "effect.js";
+    head.appendChild(script);
+  }
+  
   toSlug=(str)=>{
      // Chuyển hết sang chữ thường
      str = str.toLowerCase();     
