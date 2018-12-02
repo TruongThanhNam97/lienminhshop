@@ -64,7 +64,7 @@ class ListAccounts extends Component {
       <div className="section3 wow fadeInUp">
         <div className="container">
           <div className="loctheorank mb-4">
-            <a href="/" className="btn btn-danger wow fadeInUp active_locrank" data-wow-delay="0.5s" data-locrank="*">ngu</a>
+            <a href="/" className="btn btn-danger wow fadeInUp active_locrank" data-wow-delay="0.5s" data-locrank="*">Tất cả</a>
             <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="0.7s" data-locrank=".td">Thách đấu</a>
             <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="0.9s" data-locrank=".ct">Cao thủ</a>
             <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="1.1s" data-locrank=".kc">Kim cương</a>
