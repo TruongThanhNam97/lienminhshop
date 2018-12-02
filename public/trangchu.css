@@ -1,0 +1,1821 @@
+  
+
+.menu li.nav-item.active a {
+    background: #FABD03;
+    border-radius: 5px;
+    color: black!important;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    background: url("./images/anhnen.jpg") top center no-repeat black;
+    background-size: cover;
+}
+
+/* Start CSS menu */
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    animation: 1s animation_menu forwards;
+}
+@keyframes animation_menu
+{
+    from
+    {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.menu a.btn {
+    background: #141414;
+    border-color: #3D414D;
+}
+
+.menu a.btn.btn-primary.xuat {
+    background: #fabd03;
+    color: black;
+}
+
+.menu a.dropdown-item {
+    padding: 20px 24px;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 1px dashed;
+}
+
+.menu a.dropdown-item.xuat {
+    color: #f2b703;
+}
+
+.menu li.nav-item.active a.dropdown-item {
+    padding: 20px 24px;
+    color: white!important;
+    text-transform: uppercase;
+    border-bottom: 1px dashed;
+    background: #111112;
+}
+
+.menu li.nav-item.active a.dropdown-item:hover {
+    color: #fabd03!important;
+}
+
+.menu a.dropdown-item:hover {background: #111112;color: #ECB50E;}
+
+.menu .dropdown-menu.show {
+    background: #111112;
+}
+
+.menu a.nav-link {
+    color: white!important;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding-right: 30px!important;
+    transition: 0.4s;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.menu a.nav-link.xuat {background: #FABD03;border-radius: 5px;color: black!important;}
+
+.menu a.nav-link:hover {
+    background: #FABD03;
+    border-radius: 5px;
+    color: black!important;
+}
+
+.menu ul {
+    margin: 0!important;
+    width: 100%;
+    text-align: right!important;
+    display: unset;
+}
+
+.menu nav.navbar {
+    background: black!important;
+}
+/* End CSS menu */
+
+
+/* Start CSS section1 */
+ 
+
+.section1 .carousel-item {
+    height: 100%;
+}
+
+.section1 .carousel-inner {
+    height: 100%;
+}
+
+.section1 div#slide {
+    height: 100%;
+}
+
+.section1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 .container {
+    padding: 0 30px;
+}
+
+.section1 .carousel-indicators .active {
+    background-color: #DE1A21;
+}
+
+.section1 ol.carousel-indicators {
+    margin: 0;
+}
+
+.section1 li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+.list p.ten {
+    color: #878787;
+}
+
+.list p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list p.gia {
+    color: #FF1616;
+    font-weight: 700;
+}
+
+.list p.tenacc {
+    color: #EAB40E;
+}
+
+.list {
+    width: 100%;
+    height: 321px;
+    overflow-y: scroll;
+    padding: 15px 15px;
+    background: black;
+}
+
+.giaodich p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #8C3B05;
+}
+.giaodich p::before {
+    content: "\f017";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.giaodich {
+    width: 100%;
+    height: 41px;
+    background: #fabd03;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll {
+    width: 100%;
+    height: 362px;
+}
+
+.section1 {padding-top: 150px;}
+.section1 [class ^= "col-md" ]
+{
+    padding: 0px!important;
+}
+/* End CSS section1 */
+
+
+
+/* Start CSS section2 */
+ 
+
+.menu li.nav-item {display: inline;}
+
+.boclink img {
+    width: 100%;
+    height: 128px;
+    margin-bottom: 6px;
+}
+
+.boclink a {
+    width: 100%;
+    display: block;
+}
+
+.section2 .form-control {
+    font-size: 12px;
+    height: 38px;
+}
+
+.boccol {
+    background: black;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.bocsection2 {
+    background: #141414;
+    padding: 15px 0;
+}
+
+.section2 .container {
+}
+
+.section2 h1 {
+    color: #D5A103;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.section2 a.btn {
+    background: #ECB50E;
+    border-color: #ECB50E;
+    color: #8C3B05;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.section2 a.btn:before {
+    content: "\f002";
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.section2 [class^='col']
+{
+    margin-bottom: 10px;
+}
+/* End CSS section2 */
+
+
+
+/* Start CSS section3 */
+*{margin:0;padding:0}
+
+.comment_fb {
+    background: #141414;
+    margin-top: 20px;
+}
+
+.phantrang_question a.active_phantrang {
+    background: #6c757d;
+    border: #6c757d;
+}
+
+.phantrang_question a {
+    background: #5A6268;
+    border: #5A6268;
+    margin-right: 5px;
+}
+
+.phantrang_question a:hover {
+    background: #6c757d;
+    border: #6c757d;
+}
+
+.list_question {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.list_question.active_question {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.question_space {
+    position: relative;
+    height: 1770px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+iframe.like_fb {
+    width: 100%;
+}
+
+.question_content b {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.question_content span {
+    color: gray;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.question_content a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.khung_hinh img {
+    width: 100%;
+    height: 100%;
+}
+
+.question_content {
+    width: 70%;
+    color: white;
+}
+
+.khung_hinh {
+    width: 25%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.list_question .question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed white;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.locchamp a {
+    background: #C82333;
+    border: #C82333;
+    margin-right: 5px;
+}
+
+.locchamp a:hover {
+    background: #dc3545;
+    border: #dc3545;
+}
+
+.locchamp a.active_champ {
+    background: #dc3545;
+    border: #dc3545;
+}
+
+.loctheoskin a.active_skin {background: #dc3545;border: #dc3545;}
+
+.loctheoskin a {
+    background: #C82333;
+    border: #C82333;
+    margin-right: 5px;
+}
+
+.loctheoskin a:hover {
+    background: #dc3545;
+    border: #dc3545;
+}
+
+.loctheorank a {
+    background: #C82333;
+    border: #C82333;
+    margin-right: 5px;
+}
+
+.loctheorank a:hover {
+    background: #dc3545;
+    border: #dc3545;
+}
+
+.loctheorank a.active_locrank {
+    background: #DC3545;
+    border: #DC3545;
+}
+.image_info {width: 20%;padding: 10px;}
+
+.image_info img {
+    width: 100%;
+}
+
+.account_infos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.current_skin h4 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.current_skin {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: #ffffffb3;
+    padding: 10px;
+}
+
+.button_next {
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 30px;
+    background: #ffffffb3;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.button_next:hover {
+    background: #ffffff;
+}
+
+.button_previous:hover {
+    background: #ffffff;
+}
+
+.button_previous {
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 30px;
+    background: #ffffffb3;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.champion img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.champion {
+    width: 33%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.list_champion {width: 100%;display: flex;justify-content: space-between;flex-wrap: wrap;}
+
+.hinhminhhoa_to {
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.appear_hinhminhhoa_to {
+    transform: rotateY(0);
+}
+
+.black_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000ad;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    perspective: 400px;
+}
+.appear_tongquat
+{
+    opacity: 1 ;
+    visibility: visible;
+}
+
+.list_social_network a.fb_social {
+    background: #3B5998;
+    border-color: #3B5998;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+.list_social_network a.fb_social:hover {
+    background: #2D4373;
+    border-color: #2D4373;
+}
+
+.list_social_network a.gg_social:hover {
+    background: #C23321;
+    border-color: #C23321;
+}
+
+.list_social_network a.gg_social {
+    background: #DD4B39;
+    border-color: #DD4B39;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.list_social_network {
+    text-align: center;
+}
+
+.title_social_network p {
+    margin: 0;
+    display: inline-block;
+    padding: 10px 10px;
+    background: #fabd03;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+}
+
+.title_social_network {
+    border-bottom: 1px solid #fabd03;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.check_skin img {
+    width: 100%;
+}
+
+.check_skin a {
+    text-decoration: none;
+    display: inline;
+}
+
+.check_skin span {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.check_skin p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.check_skin h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fabd03;
+    margin-bottom: 20px;
+}
+
+.security img {
+    width: 100%;
+}
+
+.security h3 {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fabd03;
+}
+
+.security a {
+    text-decoration: none;
+    display: inline;
+}
+
+.security p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.security h2 {
+    color: #fabd03;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.security h2:before {
+    content: "\f0eb";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.security h1 {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    margin-bottom: 30px;
+}
+
+.list_step .card {
+    background: #fabd03;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.list_step .card:before {
+}
+
+.list_step a {
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.list_step a.dropdown:before {
+    content: "\f0d7";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 2%;
+    top: 25%;
+    font-size: 30px;
+}
+
+.list_step a:before {
+}
+
+.list_step a.taiday {
+    color: red;
+    display: inline;
+    padding: 0;
+}
+
+.list_step .card-header {
+    padding: 0;
+}
+
+.list_step .card-header:before {
+}
+
+.list_step {
+    margin-top: 30px;
+}
+
+.list_video h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fabd03;
+    margin-bottom: 10px;
+}
+
+.list_video .video {
+    width: 49%;
+}
+
+.list_video {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fb_owner .fa.fa-facebook {
+    color: black;
+    font-size: 40px;
+    transition: 0.4s;
+}
+
+.owner p.owner_name,.owner p.owner_address {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    background: white;
+    padding: 15px 15px;
+    width: 200px;
+    margin: 0;
+    margin-left: -100px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.owner p.owner_address {
+    transition: 0.4s;
+    transition-delay: 0.3s;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.owner:hover p.owner_address {
+    left: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.owner p.owner_name {
+    transition: 0.4s;
+    transition-delay: 0.2s;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.owner:hover p.owner_name {
+    opacity: 1;
+    left: 50%;
+    visibility: visible;
+}
+
+.owner p.owner_address {
+    top: 65%;
+}
+
+.owner a.fb_owner {
+    display: inline-flex;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: white;
+    border-color: white;
+    margin-left: -50px;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.owner a.fb_owner:hover .fa {
+    color: white;
+}
+
+.owner a.fb_owner:hover {
+    background: #4267B2;
+    border-color: #4267B2;
+}
+
+.owner:hover a.fb_owner {
+    opacity: 1;
+    top: 10%;
+    visibility: visible;
+}
+
+.owner img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.owner {
+    width: 24%;
+    height: 490px;
+    position: relative;
+}
+.manden
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000054;
+    transition: 0.4s;
+    transition-delay: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.owner:hover .manden {
+    opacity: 1;
+    visibility: visible;
+}
+.list_owner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.all_champ img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.all_champ {
+    width: 100%;
+    height: 100%;
+}
+
+.set_content ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    overflow-y: scroll;
+}
+
+.set_content ul li.active_set_content {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.skin_account {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name_skin h3 {
+    font-size: 20px;
+}
+
+.skin .name_skin {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 60%;
+    right: -50%;
+    transition-delay: 0.4s;
+    z-index: 3;
+    width: 200px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.skin:hover .name_skin {
+    opacity: 1;
+    right: 5%;
+    transition: 0.4s;
+}
+
+.skin img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.skin_account .skin {
+    width: 33%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+/* .skin_account .skin:before {
+    content: "";
+    top: 100%;
+    left: 15%;
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    background: #ffffffad;
+    transition: 0.4s;
+    transform: rotate(-27deg);
+    z-index: 2;
+} */
+
+/* .skin_account:hover .skin:before {top: 37%;left: -10%;} */
+.skin:hover .cheo{top: 37%;left: -10%;}
+.skin .cheo
+{
+    top: 100%;
+    left: 15%;
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    background: #ffffffad;
+    transition: 0.4s;
+    transform: rotate(-27deg);
+    z-index: 2;
+}
+
+.thongtin_account img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.set_content {
+    padding: 30px 0;
+}
+
+.set_content ul {
+    list-style: none;
+    margin: 0;
+    position: relative;
+    height: 1300px;
+}
+
+.nv_menu a.btn {
+    border-radius: 0;
+    display: block;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #E7E8EA;
+    border-color: #E7E8EA;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.nv_menu li.active_nv_menu  a.btn {
+    background: #ecb50e;
+    border-color: #ecb50e;
+    box-shadow: unset;
+}
+
+.nv_menu a.btn:hover {
+    background: #ecb50e;
+    border-color: #ecb50e;
+}
+
+.nv_menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.title_account a.datcoc:before {
+    content: "\f024";
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 5px;
+}
+
+.title_account a.datcoc {
+    background: #FABD03;
+    border-color: #FABD03;
+}
+
+.title_account a.datcoc:hover {
+    background: #dc3545;
+    border-color: #dc3545;
+}
+
+.title_account a.muadi:before {
+    content: "\f07a";
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 5px;
+}
+
+.title_account a.btn {
+    display: block;
+}
+
+.title_account [class^='col'] {
+}
+
+.title_account p {
+    color: red;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title_account h4 {
+    color: #ecb50e;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.bottom a.btn {
+    background: #138496;
+    border-color: #138496;
+}
+
+.bottom a.btn:hover {
+    background: #5de7fd;
+    border-color: #5de7fd;
+}
+
+.bottom li.point a.btn {
+    background: #5de7fd;
+    border-color: #5de7fd;
+}
+
+.bottom li {
+    margin-right: 5px;
+}
+
+.bottom ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    width: 100%;
+    background: #141414;
+    height: auto;
+}
+
+.top ul li {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.top ul li.appear {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.top ul {position: relative;height: 1620px;}
+
+.top .col-md-3 {
+    margin-bottom: 50px;
+}
+
+.phanduoi a.chitiet {
+    background: white;
+    border-color: white;
+    color: #333333;
+    transition: 0.4s;
+}
+
+.phanduoi a.chitiet:hover {
+    background: #DC3545;
+    border-color: #DC3545;
+    color: white;
+}
+
+.phanduoi a.btn {
+    display: block;
+    width: 110px;
+    height: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phanduoi a.chitiet:before {
+    content: "\f06e";
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.phanduoi a.muangay:before {
+    content: "\f07a";
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.phanduoi a.muangay:hover {
+    background: #FABD03;
+    border-color: #FABD03;
+}
+
+.phanduoi p {
+    margin: 0;
+    color: #FF0000;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.phanduoi .col-6 {
+    padding: 0;
+}
+
+.phanduoi .row {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.phanduoi {
+    width: 100%;
+    height: 96px;
+    padding: 5px;
+    background: black;
+}
+
+.phangiua p {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phangiua p:before {
+    content: "\f111";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.phangiua {
+    width: 100%;
+    height: 120px;
+    background: #252424;
+    padding: 5px;
+}
+
+.hinhminhhoa img {
+    width: 100%;
+    height: 100%;
+    /* transition: 0s; */
+    transform-origin: 40% 100%;
+}
+
+.phantren a.hinhminhhoa {
+    display: block;
+    width: 100%;
+    height: 241px;
+    overflow: hidden;
+}
+
+.phantren a.hinhminhhoa:hover img {
+    transform: scale(2);
+    transition: 0.4s;
+}
+
+.id_acc p {
+    margin: 0;
+    color: #0CE3AC;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phantren .id_acc {
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #494949;
+    border-radius: 5px;
+}
+
+.phantren {
+    width: 100%;
+    height: 274px;
+}
+
+.section3 .after {
+    width: 100%;
+    height: 490px;
+    position: absolute;
+    transition: 0.4s;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.before img {
+    width: 100%;
+    height: 100%;
+}
+
+.before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.4s;
+    transform: rotateY(0);
+    backface-visibility: hidden;
+}
+
+.account {
+    width: 100%;
+    height: 490px;
+    position: relative;
+    perspective: 765px;
+}
+
+.account:hover .after {
+    transform: rotateY(0);
+}
+
+.account:hover .before {
+    transform: rotateY(180deg);
+}
+/* End CSS section3 */
+
+
+
+/* Start CSS footer */
+
+
+.section3 {
+    padding: 20px 0px;
+}
+
+.socialnetwork .fa {
+    font-size: 21px;
+}
+
+.socialnetwork a.fb {
+    background: #3B5998;
+    transition: 0.4s;
+}
+
+.socialnetwork a.gg, .socialnetwork a.tw, .socialnetwork a.yt, .socialnetwork a.pr {
+    background: #DD4B39;
+    transition: 0.4s;
+}
+
+.socialnetwork a.gg:hover, .socialnetwork a.pr:hover,.socialnetwork a.yt:hover {
+    background: #C23321;
+}
+
+.socialnetwork a.tw:hover {
+    background: #55ACEE;
+}
+
+.socialnetwork a.fb:hover {
+    background: #2D4373;
+}
+
+.socialnetwork a {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.footer .time {
+    padding: 0 26px;
+}
+
+.time span {
+    color: #B1B1B1;
+    font-size: 15px;
+    font-weight: 700px;
+}
+
+.footer .hotline {
+    background: #141414;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.khoitext h3 {
+    color: #FABD03;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phone .khoitext {
+    width: 72%;
+}
+
+.phone img {
+    width: 20%;
+    height: 20%;
+}
+
+.footer .phone {
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #2D2D2D;
+    align-items: center;
+}
+
+.footer p {
+    color: #474747;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background: #080808;
+    padding: 20px 0px;
+}
+/* End CSS footer */
+
+
+
+/* Start CSS btn_up */
+  
+
+.btn_up {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s;
+    z-index: 6969;
+    opacity: 0;
+}
+
+.appear_btn_up {
+    opacity: 1;
+    bottom: 15px;
+    right: 15px;
+}
+/* End CSS btn_up */
+
+
+
+
+
+/* Start CSS form_google */
+
+
+.form .back {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.form input.button_submit {}
+
+.form_google .form {
+    background: gray;
+    padding: 50px 50px;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.4s;
+    transition-delay: 0.2s;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.appear_form {
+    transform: rotateY(0deg)!important;
+}
+
+.form input.info_user {
+    display: block;
+    margin-bottom: 18px;
+    width: 500px;
+    padding: 5px;
+}
+.form input.info_user::-webkit-input-placeholder{
+    font-style: italic;    
+}
+
+.form_google {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000a1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    perspective: 400px;
+}
+.appear_form_google
+{
+    opacity: 1 ;
+    visibility: visible;
+}
+
+/* End CSS form_google */
+
+
+
+
+
+
+
+
+
+/* Start CSS man hinh ip5 */
+@media (min-width:320px) and (max-width:374px)
+{
+    *{}
+
+.title_account h4 {
+    font-size: 12px!important;
+}
+
+.phanduoi a.chitiet {}
+}
+/* End CSS man hinh ip5 */
+
+
+
+/* Start CSS man hinh mobiile */
+@media (max-width: 576px)
+{
+    *{
+}
+
+.question_content b {
+    font-size: 13px;
+}
+
+.question_content span {
+    font-size: 10px;
+}
+
+.question_content a {
+    font-size: 14px;
+}
+
+iframe.like_fb {
+}
+
+.locchamp {
+    text-align: center;
+}
+
+.locchamp a {
+    margin-bottom: 10px;
+}
+
+.loctheoskin {
+    text-align: center;
+}
+
+.loctheoskin a {
+    margin-bottom: 10px;
+}
+
+.loctheorank {
+    text-align: center;
+}
+
+.loctheorank a {margin-bottom: 10px;}
+
+.image_info {
+    width: 100%;
+}
+
+.current_skin h4 {
+    font-size: 15px;
+}
+
+.champion {
+    width: 100%!important;
+}
+
+.form .back {
+    right: 6%;
+    top: 76%;
+}
+
+.form input.info_user {
+    width: 253px;
+}
+
+.form_google .form {
+    padding: 20px 20px;
+}
+
+.check_skin span {
+    font-size: 16px;
+}
+
+.check_skin p {
+    font-size: 17px;
+}
+
+.security h3 {
+    font-size: 20px;
+}
+
+.security p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.security h2 {
+    font-size: 18px;
+}
+
+.security h2:before {
+    font-size: 18px;
+}
+
+.security h1 {
+    font-size: 24px;
+}
+
+.list_step .card {
+    font-size: 10px;
+}
+
+.list_step a {
+    font-size: 9px;
+}
+
+.list_step a.dropdown:before {
+    font-size: 20px;
+}
+
+.list_video .video {
+    width: 100%;
+    margin-bottom: 29px;
+}
+
+.list_video h1 {font-size: 10px!important;}
+
+.owner {
+    width: 100%!important;
+}
+
+.skin_account .skin {
+    width: 100%!important;
+}
+
+.nv_menu a.btn {
+    font-size: 10px;
+    padding: 10px 10px;
+}
+
+.title_account {
+    margin-bottom: 20px;
+}
+
+.title_account a.btn {
+    font-size: 14px!important;
+}
+
+.title_account a.datcoc:before {
+    font-size: 14px!important;
+}
+
+.title_account a.muadi:before {
+    font-size: 14px!important;
+}
+
+.title_account p {
+    font-size: 15px!important;
+}
+
+.footer .col-md-6 {
+    margin-bottom: 15px;
+}
+
+.socialnetwork {
+    text-align: left;
+}
+
+.top ul {
+    height: 6480px;
+}
+
+.phanduoi a.btn {
+    width: 140px!important;
+    font-size: 18px!important;
+}
+
+.phanduoi a.chitiet:before {
+    font-size: 18px;
+}
+
+.phanduoi a.muangay:before {
+    font-size: 18px;
+}
+
+.phanduoi p {
+    font-size: 16px!important;
+}
+
+.phangiua p {
+    font-size: 15px!important;
+}
+}
+/* End CSS man hinh mobile */
+
+
+
+/* Start CSS man hinh ipad */
+@media (max-width: 768px)
+{
+    *{}
+
+.section3 .after {
+    transform: rotateY(0);
+}
+
+.before {
+    display: none;
+}
+
+.champion {
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+.hinhminhhoa_to {
+    width: 90%;
+}
+
+.list_video h1 {
+    font-size: 13px;
+}
+
+.owner img {
+}
+
+.owner {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.skin_account .skin {
+    width: 50%;
+}
+
+.title_account a.btn {
+    font-size: 7px;
+}
+
+.title_account a.datcoc:before {
+    font-size: 7px;
+}
+
+.title_account a.muadi:before {
+    font-size: 7px;
+}
+
+.title_account p {
+    font-size: 10px;
+}
+
+.title_account h4 {
+    font-size: 13px;
+}
+
+.phanduoi a.btn {
+    width: 64px;
+    font-size: 7px;
+}
+
+.phanduoi p {
+    font-size: 8px;
+}
+
+.phangiua p {
+    font-size: 12px;
+}
+
+.menu a.nav-link {
+    display: block;
+}
+
+.menu ul {
+    display: flex;
+    text-align: left!important;
+}
+
+.menu li.nav-item {
+    display: unset!important;
+}
+
+.list p {
+    font-size: 8px;
+}
+
+.menu a.btn {
+    display: block;
+}
+
+.menu a.nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu .navbar-toggler {
+    background: white;
+}
+}
+/* End CSS man hinh ipad */
+
+
+
+/* Start CSS man hinh ipad pro */
+@media (max-width:1199px) and (min-width:1024px)
+{
+    *{}
+
+.section3 .after {
+    transform: rotateY(0);
+}
+
+.before {
+    display: none;
+}
+
+.current_skin h4 {
+    font-size: 17px;
+}
+
+.hinhminhhoa_to {
+    width: 90%;
+}
+
+.list_video h1 {
+    font-size: 17px;
+}
+
+.title_account a.btn {
+    font-size: 11px;
+}
+
+.title_account p {
+    font-size: 11px;
+}
+
+.khoitext h3 {
+    font-size: 14px;
+}
+
+.phanduoi a.btn {
+    width: 94px;
+    font-size: 13px;
+}
+
+.phanduoi p {
+    font-size: 10px;
+}
+
+.list p {
+    font-size: 10px;
+}
+
+.menu a.nav-link {
+    font-size: 15px;
+}
+}
+/* End CSS man hinh ipad pro */
