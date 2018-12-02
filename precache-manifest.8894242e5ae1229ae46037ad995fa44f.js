@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/lienminhshop/static/css/main.a0f2ea79.chunk.css"
   },
   {
-    "revision": "fcfaac1f4d3dfa2c3de3e6b7664327ff",
+    "revision": "a421cc87220ca286690e1d1e8010be54",
     "url": "/lienminhshop/index.html"
   }
 ];
