@@ -14,21 +14,21 @@ class OwnerShop extends Component {
         <p className="owner_address">15520526</p>
       </div>
       <div className="owner wow bounceInUp" data-wow-delay="0.5s">
-        <img src="./lienminhshop/imagess/owner2.jpg" alt="for react" />
+        <img src="./lienminhshop/images/owner2.jpg" alt="for react" />
         <div className="manden" />
         <a href="https://www.facebook.com/khanhlp315" className="btn btn-info fb_owner"><div className="fa fa-facebook" /></a>
         <p className="owner_name">Lê Phương Khanh</p>
         <p className="owner_address">15520350</p>
       </div>
       <div className="owner wow bounceInUp" data-wow-delay="0.7s">
-        <img src="./lienminhshop/imagess/owner3.jpg" alt="for react" />
+        <img src="./lienminhshop/images/owner3.jpg" alt="for react" />
         <div className="manden" />
         <a href="https://www.facebook.com/dangxuanduykhuong" className="btn btn-info fb_owner"><div className="fa fa-facebook" /></a>
         <p className="owner_name">Đặng Xuân Duy Khương</p>
         <p className="owner_address">15520389</p>
       </div>
       <div className="owner wow bounceInUp" data-wow-delay="0.9s">
-        <img src="./lienminhshop/imagess/owner4.jpg" alt="for react" />
+        <img src="./lienminhshop/images/owner4.jpg" alt="for react" />
         <div className="manden" />
         <a href="https://www.facebook.com/nguyenhoang.phuc.1213" className="btn btn-info fb_owner"><div className="fa fa-facebook" /></a>
         <p className="owner_name">Nguyễn Hoàng Phúc</p>

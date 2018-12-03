@@ -9,7 +9,7 @@ class Menu extends Component {
   <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top|fixed-bottom|sticky-top">
     <div className="container">
       <NavLink className="navbar-brand" to="/listaccounts">
-        <img src="./lienminhshop/images/logo.png" alt="for react" className="logo" />
+        <img src="./images/logo.png" alt="for react" className="logo" />
       </NavLink>
       <button className="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
