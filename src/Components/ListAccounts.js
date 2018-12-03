@@ -15,7 +15,7 @@ class ListAccounts extends Component {
   componentWillMount() {
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
-    script.src = "./effect.js";
+    script.src = "%PUBLIC_URL%/effect.js";
     head.appendChild(script);
   }
   toSlug=(str)=>{
