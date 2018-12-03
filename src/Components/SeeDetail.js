@@ -11,7 +11,7 @@ class SeeDetail extends Component {
   componentWillMount() {
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
-    script.src = "../effect.js";
+    script.src = "/lienminhshop/effect.js";
     head.appendChild(script);
   }
 
@@ -78,85 +78,85 @@ class SeeDetail extends Component {
               <li className="active_set_content">
                 <div className="account_infos">
                   <div className="image_info">
-                    <img src="../images/thongtin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin1.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin2.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin3.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin3.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin4.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin4.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin5.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin5.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin6.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin6.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin7.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin7.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin8.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin8.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin9.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin9.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin10.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin10.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin11.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin11.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin12.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin12.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin13.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin13.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin14.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin14.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin15.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin15.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin16.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin16.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin17.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin17.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin18.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin18.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin19.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin19.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin20.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin20.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin21.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin21.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin22.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin22.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin23.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin23.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin24.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin24.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin25.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin25.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin26.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin26.png" alt="for react" />
                   </div>
                   <div className="image_info">
-                    <img src="../images/thongtin27.png" alt="for react" />
+                    <img src="../lienminhshop/images/thongtin27.png" alt="for react" />
                   </div>
                 </div>
               </li>
@@ -170,7 +170,7 @@ class SeeDetail extends Component {
                 </div>
                 <div className="skin_account">
                   <div className="skin toithuong">
-                    <img src="../images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw công nghệ</h3>
@@ -181,7 +181,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin toithuong">
-                    <img src="../images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw hóa thạch</h3>
@@ -192,7 +192,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin thanthoai">
-                    <img src="../images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw tuần lộc</h3>
@@ -203,7 +203,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin huyenthoai">
-                    <img src="../images/skin3.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin3.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw sâu róm</h3>
@@ -214,7 +214,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin suthi">
-                    <img src="../images/skin4.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin4.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw biển sâu</h3>
@@ -225,7 +225,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin suthi">
-                    <img src="../images/skin5.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin5.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw múa lân</h3>
@@ -236,7 +236,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin suthi">
-                    <img src="../images/skin6.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin6.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw cổ máy chiến đấu</h3>
@@ -247,7 +247,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin suthi">
-                    <img src="../images/skin7.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin7.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw sa mạc</h3>
@@ -258,7 +258,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin suthi">
-                    <img src="../images/skin8.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin8.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw chó con</h3>
@@ -269,7 +269,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End skin */}
                   <div className="skin suthi">
-                    <img src="../images/skin9.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin9.png" alt="for react" />
                     <div className="cheo" />
                     <div className="name_skin">
                       <h3>Kogmaw bướm chúa</h3>
@@ -293,17 +293,17 @@ class SeeDetail extends Component {
                 </div>
                 <div className="list_champion">
                   <div className="champion xathu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/skin3.png" alt="for react" />
-                    <img src="../images/skin4.png" alt="for react" />
-                    <img src="../images/skin5.png" alt="for react" />
-                    <img src="../images/skin6.png" alt="for react" />
-                    <img src="../images/skin7.png" alt="for react" />
-                    <img src="../images/skin8.png" alt="for react" />
-                    <img src="../images/skin9.png" alt="for react" />
-                    <img src="../images/cham1.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin3.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin4.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin5.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin6.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin7.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin8.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin9.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham1.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -316,17 +316,17 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion xathu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/skin3.png" alt="for react" />
-                    <img src="../images/skin4.png" alt="for react" />
-                    <img src="../images/skin5.png" alt="for react" />
-                    <img src="../images/skin6.png" alt="for react" />
-                    <img src="../images/skin7.png" alt="for react" />
-                    <img src="../images/skin8.png" alt="for react" />
-                    <img src="../images/skin9.png" alt="for react" />
-                    <img src="../images/cham2.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin3.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin4.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin5.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin6.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin7.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin8.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin9.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham2.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -339,17 +339,17 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion xathu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/skin3.png" alt="for react" />
-                    <img src="../images/skin4.png" alt="for react" />
-                    <img src="../images/skin5.png" alt="for react" />
-                    <img src="../images/skin6.png" alt="for react" />
-                    <img src="../images/skin7.png" alt="for react" />
-                    <img src="../images/skin8.png" alt="for react" />
-                    <img src="../images/skin9.png" alt="for react" />
-                    <img src="../images/cham3.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin3.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin4.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin5.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin6.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin7.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin8.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin9.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham3.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -362,7 +362,7 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion phapsu">
-                    <img src="../images/skin0.jpg" alt="for react" />
+                    <img src="../lienminhshop/images/skin0.jpg" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -375,17 +375,17 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion dausi">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/skin3.png" alt="for react" />
-                    <img src="../images/skin4.png" alt="for react" />
-                    <img src="../images/skin5.png" alt="for react" />
-                    <img src="../images/skin6.png" alt="for react" />
-                    <img src="../images/skin7.png" alt="for react" />
-                    <img src="../images/skin8.png" alt="for react" />
-                    <img src="../images/skin9.png" alt="for react" />
-                    <img src="../images/cham4.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin3.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin4.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin5.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin6.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin7.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin8.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin9.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham4.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -398,10 +398,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion dausi">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham5.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham5.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -414,10 +414,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion dausi">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham6.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham6.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -430,10 +430,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion hotro">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham7.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham7.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -446,10 +446,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion hotro">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham8.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham8.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -462,10 +462,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion hotro">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/skin0.jpg" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin0.jpg" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -478,10 +478,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion dodon">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham1.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham1.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -494,10 +494,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion dodon">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham2.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham2.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -510,10 +510,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion dodon">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham3.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham3.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -526,10 +526,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion dodon">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham4.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham4.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -542,10 +542,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion satthu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham5.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham5.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -558,10 +558,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion satthu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham6.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham6.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -574,10 +574,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion satthu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham7.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham7.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -590,10 +590,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion satthu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/cham8.PNG" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/cham8.PNG" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>
@@ -606,10 +606,10 @@ class SeeDetail extends Component {
                   </div>
                   {/* End champion */}
                   <div className="champion satthu">
-                    <img src="../images/skin.png" alt="for react" />
-                    <img src="../images/skin1.png" alt="for react" />
-                    <img src="../images/skin2.png" alt="for react" />
-                    <img src="../images/skin0.jpg" alt="for react" />
+                    <img src="../lienminhshop/images/skin.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin1.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin2.png" alt="for react" />
+                    <img src="../lienminhshop/images/skin0.jpg" alt="for react" />
                     <div className="button_next">
                       <div className="fa fa-chevron-right" />
                     </div>

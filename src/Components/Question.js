@@ -4,7 +4,7 @@ class Question extends Component {
   componentWillMount() {
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
-    script.src = "effect.js";
+    script.src = "/lienminhshop/effect.js";
     head.appendChild(script);
 }
     render() {
@@ -19,7 +19,7 @@ class Question extends Component {
       <div className="list_question trang1 active_question">
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q1.png" alt="for react" />
+            <img src="./lienminhshop/images/q1.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
@@ -31,7 +31,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q2.png" alt="for react" />
+            <img src="./lienminhshop/images/q2.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
@@ -43,7 +43,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q3.png" alt="for react" />
+            <img src="./lienminhshop/images/q3.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
@@ -55,7 +55,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q4.png" alt="for react" />
+            <img src="./lienminhshop/images/q4.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">TÔI MUỐN NẠP TIỀN BẰNG CARD THÌ LÀM NHƯ THẾ NÀO ???</a>
@@ -67,7 +67,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q5.png" alt="for react" />
+            <img src="./lienminhshop/images/q5.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">TÔI MUỐN NẠP TIỀN BẰNG ATM THÌ LÀM NHƯ THẾ NÀO ???</a>
@@ -79,7 +79,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q6.png" alt="for react" />
+            <img src="./lienminhshop/images/q6.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">HƯỚNG DẪN ĐẶT CỌC TÀI KHOẢN</a>
@@ -91,7 +91,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q7.png" alt="for react" />
+            <img src="./lienminhshop/images/q7.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">CHÍNH SÁCH ĐỀN BÙ VÀ ĐẢM BẢO KHI MUA ACC Ở LIENMINHSHOP.VN ???</a>
@@ -103,7 +103,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q8.png" alt="for react" />
+            <img src="./lienminhshop/images/q8.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">MUA XONG TÔI NHẬN TÀI KHOẢN VÀ MẬT KHẨU Ở ĐÂU</a>
@@ -115,7 +115,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q9.png" alt="for react" />
+            <img src="./lienminhshop/images/q9.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">CHO THUÊ ACC BATTLEGROUNDS</a>
@@ -130,7 +130,7 @@ class Question extends Component {
       <div className="list_question trang2">
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q10.png" alt="for react" />
+            <img src="./lienminhshop/images/q10.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
@@ -142,7 +142,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q11.png" alt="for react" />
+            <img src="./lienminhshop/images/q11.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
@@ -154,7 +154,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q12.png" alt="for react" />
+            <img src="./lienminhshop/images/q12.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
@@ -166,7 +166,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q10.png" alt="for react" />
+            <img src="./lienminhshop/images/q10.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
@@ -178,7 +178,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q11.png" alt="for react" />
+            <img src="./lienminhshop/images/q11.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
@@ -190,7 +190,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q12.png" alt="for react" />
+            <img src="./lienminhshop/images/q12.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
@@ -202,7 +202,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q10.png" alt="for react" />
+            <img src="./lienminhshop/images/q10.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
@@ -214,7 +214,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q11.png" alt="for react" />
+            <img src="./lienminhshop/images/q11.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
@@ -226,7 +226,7 @@ class Question extends Component {
         {/* End question */}
         <div className="question wow fadeInUp">
           <a href="/" className="khung_hinh">
-            <img src="./images/q12.png" alt="for react" />
+            <img src="./lienminhshop/images/q12.png" alt="for react" />
           </a>
           <div className="question_content">
             <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
