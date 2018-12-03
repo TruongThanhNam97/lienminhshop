@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/lienminhshop/static/js/runtime~main.fa901134.js"
   },
   {
-    "revision": "216140f0e137e3933b9d",
-    "url": "/lienminhshop/static/js/main.216140f0.chunk.js"
+    "revision": "2fd85e32a5c785d16d82",
+    "url": "/lienminhshop/static/js/main.2fd85e32.chunk.js"
   },
   {
     "revision": "e8f4f8784184eaad9a94",
     "url": "/lienminhshop/static/js/1.e8f4f878.chunk.js"
   },
   {
-    "revision": "216140f0e137e3933b9d",
+    "revision": "2fd85e32a5c785d16d82",
     "url": "/lienminhshop/static/css/main.a0f2ea79.chunk.css"
   },
   {
-    "revision": "131c6d211998c484e2ac955eb63f21c3",
+    "revision": "f687ced561d026ec7c32f9699917b1a6",
     "url": "/lienminhshop/index.html"
   }
 ];
