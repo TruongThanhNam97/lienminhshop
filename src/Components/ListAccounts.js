@@ -143,7 +143,7 @@ class ListAccounts extends Component {
                                   <p>{value.atm}</p>
                                 </div>
                                 <div className="col-6">
-                                  <NavLink to={"/lienminhshop/seedetail/"+this.toSlug(value.khung)+"."+value.id+".html"} className="btn btn-danger chitiet">
+                                  <NavLink to={"/seedetail/"+this.toSlug(value.khung)+"."+value.id+".html"} className="btn btn-danger chitiet">
                                     Chi tiết
                                   </NavLink>
                                 </div>
@@ -251,7 +251,7 @@ class ListAccounts extends Component {
                                   <p>{value.atm}</p>
                                 </div>
                                 <div className="col-6">
-                                  <NavLink to={"/lienminhshop/seedetail/"+this.toSlug(value.khung)+"."+value.id+".html"} className="btn btn-danger chitiet">
+                                  <NavLink to={"/seedetail/"+this.toSlug(value.khung)+"."+value.id+".html"} className="btn btn-danger chitiet">
                                     Chi tiết
                                 </NavLink>
                                 </div>

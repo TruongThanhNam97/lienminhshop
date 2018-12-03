@@ -92,10 +92,10 @@ class Section2 extends Component {
         </div>
         <div className="col-md-4">
           <div className="boclink">
-            <NavLink to="/lienminhshop/question">
+            <NavLink to="/question">
               <img src="./images/question.jpg" alt="question" />
             </NavLink>
-            <NavLink to="/lienminhshop/conductbuyaccount">
+            <NavLink to="/conductbuyaccount">
               <img src="./images/deposit.jpg" alt="deposit" />
             </NavLink>
           </div>
