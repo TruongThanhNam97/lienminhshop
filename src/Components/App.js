@@ -28,6 +28,7 @@ class App extends Component {
         <ImageIllustration></ImageIllustration>
       </div>
       </Router>
+      //@@
     );
   }
 }
