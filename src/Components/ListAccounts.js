@@ -34,7 +34,7 @@ class ListAccounts extends Component {
      // Xóa ký tự đặc biệt
      str = str.replace(/([^0-9a-z-\s])/g, '');
   
-     // Xóa khoảng trắng thay bằng ký tự -
+     // Xóa khoảng trắng thay bằng ký tự - 121231232131
      str = str.replace(/(\s+)/g, '-');
   
      // xóa phần dự - ở đầu
