@@ -1675,6 +1675,23 @@ iframe.like_fb {
 {
     *{}
 
+a.dropdown-item {
+    border: unset!important;
+    padding: 0!important;
+    line-height: 50px;
+}
+
+.menu a.dropdown-item:hover {
+    background: #ecb50e;
+    color: black;
+}
+
+.dropdown-menu {
+    display: unset;
+}
+
+.dropdown-menu.show {}
+
 .section3 .after {
     transform: rotateY(0);
 }
@@ -1765,6 +1782,10 @@ iframe.like_fb {
 .menu a.nav-link {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+a#dropdownId {
+    display: none;
 }
 
 .menu .navbar-toggler {
