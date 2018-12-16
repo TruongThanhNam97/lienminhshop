@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import data from "./User.json";
 
 class Section1 extends Component {
+  componentWillMount() {
+    this.props.getUser(data);
+  }
     render() {
         return (
 <div className="section1">
@@ -12,50 +17,23 @@ class Section1 extends Component {
             <p>khách hàng vừa giao dịch</p>
           </div>
           <div className="list">
-            <div className="row">
-              <div className="col-4">
-                <p className="ten">Thanh Nam</p>
+          {
+            this.props.listUser.map((value,key)=>{
+              return (
+                <div className="row" key={key}>
+                <div className="col-4">
+                  <p className="ten">{value.ten}</p>
+                </div>
+                <div className="col-4 text-right">
+                  <p className="tenacc">{value.tenAcc}</p>
+                </div>
+                <div className="col-4 text-right">
+                  <p className="gia">{value.gia}</p>
+                </div>
               </div>
-              <div className="col-4 text-right">
-                <p className="tenacc">LOL-Acc #23746</p>
-              </div>
-              <div className="col-4 text-right">
-                <p className="gia">50.000 đ</p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-4">
-                <p className="ten">Phương Khanh</p>
-              </div>
-              <div className="col-4 text-right">
-                <p className="tenacc">LOL-Acc #23747</p>
-              </div>
-              <div className="col-4 text-right">
-                <p className="gia">100.000 đ</p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-4">
-                <p className="ten">Duy Khương</p>
-              </div>
-              <div className="col-4 text-right">
-                <p className="tenacc">LOL-Acc #23748</p>
-              </div>
-              <div className="col-4 text-right">
-                <p className="gia">150.000 đ</p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-4">
-                <p className="ten">Hoàng Phúc</p>
-              </div>
-              <div className="col-4 text-right">
-                <p className="tenacc">LOL-Acc #23749</p>
-              </div>
-              <div className="col-4 text-right">
-                <p className="gia">200.000 đ</p>
-              </div>
-            </div>
+              );
+            })
+          }
           </div>
         </div>
       </div>
@@ -81,5 +59,17 @@ class Section1 extends Component {
         );
     }
 }
+const mapStateToProps = (state, ownProps) => ({
+  listUser : state.listUser
+})
+const mapDispatchToProps = dispatch => {
+  return {
+    getUser : (data) => {
+      dispatch({
+        type : "getUser",data
+      })
+    }
+  }
+}
 
-export default Section1;
+export default connect(mapStateToProps, mapDispatchToProps)(Section1)

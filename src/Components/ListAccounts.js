@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
 import Data from "./Data.json";
+import { connect } from 'react-redux';
+
 
 
 
@@ -17,6 +19,7 @@ class ListAccounts extends Component {
     var script = document.createElement("script");
     script.src = "/lienminhshop/effect.js";
     head.appendChild(script);
+    this.props.getData(Data);
   }
   toSlug=(str)=>{
      // Chuyển hết sang chữ thường
@@ -65,7 +68,7 @@ class ListAccounts extends Component {
               <li className="appear">
                 <div className="row father_account">
                 {
-                  this.state.data.map((value,key)=>{
+                  this.props.listData.map((value,key)=>{
                     if (key <=11)
                     {
                       var rank = "";
@@ -169,7 +172,7 @@ class ListAccounts extends Component {
               <li>
                 <div className="row father_account">
                 {
-                  this.state.data.map((value,key)=>{
+                  this.props.listData.map((value,key)=>{
                     if (key >=12)
                     {
                       var rank = "";
@@ -291,5 +294,17 @@ class ListAccounts extends Component {
     );
   }
 }
+const mapStateToProps = (state, ownProps) => ({
+  listData : state.listData
+})
+const mapDispatchToProps = dispatch => {
+  return {
+    getData : (data) => {
+      dispatch({
+        type : "getData",data
+      })
+    }
+  }
+}
 
-export default ListAccounts;
+export default connect(mapStateToProps, mapDispatchToProps)(ListAccounts);
