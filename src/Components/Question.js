@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import data from "./Ques.json";
+
 
 class Question extends Component {
   componentWillMount() {
@@ -6,6 +9,7 @@ class Question extends Component {
     var script = document.createElement("script");
     script.src = "effect.js";
     head.appendChild(script);
+    this.props.getQuestion(data);
 }
     render() {
         return (
@@ -17,225 +21,51 @@ class Question extends Component {
     </div>
     <div className="question_space">
       <div className="list_question trang1 active_question">
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q1.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q2.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q3.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q4.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">TÔI MUỐN NẠP TIỀN BẰNG CARD THÌ LÀM NHƯ THẾ NÀO ???</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q5.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">TÔI MUỐN NẠP TIỀN BẰNG ATM THÌ LÀM NHƯ THẾ NÀO ???</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q6.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">HƯỚNG DẪN ĐẶT CỌC TÀI KHOẢN</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q7.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">CHÍNH SÁCH ĐỀN BÙ VÀ ĐẢM BẢO KHI MUA ACC Ở LIENMINHSHOP.VN ???</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q8.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">MUA XONG TÔI NHẬN TÀI KHOẢN VÀ MẬT KHẨU Ở ĐÂU</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q9.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">CHO THUÊ ACC BATTLEGROUNDS</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
+      {
+        this.props.listQuestion.map((value,key)=>{
+          if (key<=8)
+          {
+            return (
+              <div className="question wow fadeInUp" key={key}>
+              <a href="/" className="khung_hinh">
+                <img src={value.image} alt="for react" />
+              </a>
+              <div className="question_content">
+                <a href="/">{value.title}</a>
+                <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
+                <br />
+                <span>{value.user} <b>|</b> {value.time}</span>
+              </div>
+            </div>
+            );
+          }
+          return true;
+        })
+      }
       </div>
       {/* End list_question */}
       <div className="list_question trang2">
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q10.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q11.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q12.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q10.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q11.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q12.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q10.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">HƯỚNG DẪN TẠO SHOP ĐỂ BÁN ACC LMHT - LIÊN QUÂN</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q11.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">CÁCH CHUYỂN TIỀN ATM NHANH NHẤT , CON NÍT CŨNG LÀM ĐƯỢC.</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
-        <div className="question wow fadeInUp">
-          <a href="/" className="khung_hinh">
-            <img src="./images/q12.png" alt="for react" />
-          </a>
-          <div className="question_content">
-            <a href="/">LIENMINHSHOP.VN CÓ UY TÍN KHÔNG ???????</a>
-            <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
-            <br />
-            <span>Bởi Trương Thanh Nam <b>|</b> Vào 10/11/2018</span>
-          </div>
-        </div>
-        {/* End question */}
+      {
+        this.props.listQuestion.map((value,key)=>{
+          if (key>=9)
+          {
+            return (
+              <div className="question wow fadeInUp" key={key}>
+              <a href="/" className="khung_hinh">
+                <img src={value.image} alt="for react" />
+              </a>
+              <div className="question_content">
+                <a href="/">{value.title}</a>
+                <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
+                <br />
+                <span>{value.user} <b>|</b> {value.time}</span>
+              </div>
+            </div>
+            );
+          }
+          return true;
+        })
+      }
       </div>
       {/* End list_question */}
     </div>
@@ -245,5 +75,17 @@ class Question extends Component {
         );
     }
 }
+const mapStateToProps = (state, ownProps) => ({
+  listQuestion : state.listQuestion
+})
+const mapDispatchToProps = dispatch => {
+  return {
+    getQuestion : (data) => {
+      dispatch({
+        type : "getQuestion",data
+      })
+    }
+  }
+}
 
-export default Question;
+export default connect(mapStateToProps, mapDispatchToProps)(Question)

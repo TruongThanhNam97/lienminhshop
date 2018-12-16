@@ -1,0 +1,22 @@
+[
+    {
+        "ten" : "Thanh Nam",
+        "tenAcc" : "LOL-Acc #23746",
+        "gia" : "50.000 đ"
+    },
+    {
+        "ten" : "Phương Khanh",
+        "tenAcc" : "LOL-Acc #23747",
+        "gia" : "100.000 đ"
+    },
+    {
+        "ten" : "Duy Khương",
+        "tenAcc" : "LOL-Acc #23748",
+        "gia" : "150.000 đ"
+    },
+    {
+        "ten" : "Hoàng Phúc",
+        "tenAcc" : "LOL-Acc #23749",
+        "gia" : "200.000 đ"
+    }
+]
