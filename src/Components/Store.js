@@ -12,6 +12,8 @@ var allReducers = (state =oldState , action) => {
             return {...state,listUser : action.data};
         case "getQuestion" :
             return {...state,listQuestion : action.data};
+        case "searchData" :
+            return {...state,listData : action.data};
         default:
             return state
     }
