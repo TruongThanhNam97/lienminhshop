@@ -121,7 +121,7 @@ class ListAccounts extends Component {
                               <div className="id_acc">
                                 <p>{value.id}</p>
                               </div>
-                              <a href="/" className="hinhminhhoa" data-phanloaihinh=".hinhminhhoa1">
+                              <a href="/" className="hinhminhhoa" data-phanloaihinh={".hinhminhhoa"+(key+1)}>
                                 <img src={value.imageAfter} alt="for react" />
                               </a>
                             </div>
@@ -229,7 +229,7 @@ class ListAccounts extends Component {
                               <div className="id_acc">
                                 <p>{value.id}</p>
                               </div>
-                              <a href="/" className="hinhminhhoa" data-phanloaihinh=".hinhminhhoa1">
+                              <a href="/" className="hinhminhhoa" data-phanloaihinh={".hinhminhhoa"+(key+1)}>
                                 <img src={value.imageAfter} alt="for react" />
                               </a>
                             </div>
