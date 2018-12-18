@@ -19,8 +19,5 @@ var allReducers = (state =oldState , action) => {
     }
 }
 var store = redux.createStore(allReducers);
-store.subscribe(()=>{
-    console.log(store.getState()); 
-})
 
 export default store;
