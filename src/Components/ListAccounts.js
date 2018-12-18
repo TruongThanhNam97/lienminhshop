@@ -15,6 +15,12 @@ class ListAccounts extends Component {
     head.appendChild(script);
     this.props.getData(Data);
   }
+  componentWillReceiveProps(nextProps) {
+    var head = document.getElementsByTagName("body")[0];
+    var script = document.createElement("script");
+    script.src = "effect.js";
+    head.appendChild(script);
+  }
   toSlug=(str)=>{
      // Chuyển hết sang chữ thường
      str = str.toLowerCase();     
@@ -47,16 +53,6 @@ class ListAccounts extends Component {
     return (
       <div className="section3 wow fadeInUp">
         <div className="container">
-          <div className="loctheorank mb-4">
-            <a href="/" className="btn btn-danger wow fadeInUp active_locrank" data-wow-delay="0.5s" data-locrank="*">Tất cả</a>
-            <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="0.7s" data-locrank=".td">Thách đấu</a>
-            <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="0.9s" data-locrank=".ct">Cao thủ</a>
-            <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="1.1s" data-locrank=".kc">Kim cương</a>
-            <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="1.3s" data-locrank=".bk">Bạch kim</a>
-            <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="1.5s" data-locrank=".vang">Vàng</a>
-            <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="1.7s" data-locrank=".bac">Bạc</a>
-            <a href="/" className="btn btn-danger wow fadeInUp" data-wow-delay="1.9s" data-locrank=".dong">Đồng</a>
-          </div>
           <div className="top">
             <ul>
               <li className="appear">
@@ -65,54 +61,9 @@ class ListAccounts extends Component {
                   this.props.listData.map((value,key)=>{
                     if (key <=11)
                     {
-                      var rank = "";
-                      if (key===1)
-                      {
-                        rank = "td";
-                      }
-                      if (key===2)
-                      {
-                        rank = "td";
-                      }
-                      if (key===3)
-                      {
-                        rank = "td";
-                      }
-                      if (key===4)
-                      {
-                        rank = "ct";
-                      }
-                      if (key===5)
-                      {
-                        rank = "ct";
-                      }
-                      if (key===6)
-                      {
-                        rank = "bac";
-                      }
-                      if (key===7)
-                      {
-                        rank = "bk";
-                      }
-                      if (key===8)
-                      {
-                        rank = "dong";
-                      }
-                      if (key===9)
-                      {
-                        rank = "dong";
-                      }
-                      if (key===10)
-                      {
-                        rank = "vang";
-                      }
-                      if (key===11)
-                      {
-                        rank = "kc";
-                      }
                       return (
-                        <div className={"col-md-3 child_account "+rank} key={key}>
-                        <div className="account wow fadeInUp" data-wow-delay="0.3s">
+                        <div className={"col-md-3 child_account"} key={key}>
+                        <div className="account">
                           <div className="before">
                             <img src={value.imageBefore} alt="for react" />
                           </div>
@@ -121,7 +72,7 @@ class ListAccounts extends Component {
                               <div className="id_acc">
                                 <p>{value.id}</p>
                               </div>
-                              <a href="/" className="hinhminhhoa" data-phanloaihinh={".hinhminhhoa"+(key+1)}>
+                              <a  href="/" className="hinhminhhoa" data-phanloaihinh={".hinhminhhoa"+(key+1)}>
                                 <img src={value.imageAfter} alt="for react" />
                               </a>
                             </div>
@@ -169,58 +120,9 @@ class ListAccounts extends Component {
                   this.props.listData.map((value,key)=>{
                     if (key >=12)
                     {
-                      var rank = "";
-                      if (key===12)
-                      {
-                        rank = "td";
-                      }
-                      if (key===13)
-                      {
-                        rank = "ct";
-                      }
-                      if (key===14)
-                      {
-                        rank = "ct";
-                      }
-                      if (key===15)
-                      {
-                        rank = "dong";
-                      }
-                      if (key===16)
-                      {
-                        rank = "dong";
-                      }
-                      if (key===17)
-                      {
-                        rank = "bac";
-                      }
-                      if (key===18)
-                      {
-                        rank = "bk";
-                      }
-                      if (key===19)
-                      {
-                        rank = "bk";
-                      }
-                      if (key===20)
-                      {
-                        rank = "dong";
-                      }
-                      if (key===21)
-                      {
-                        rank = "vang";
-                      }
-                      if (key===22)
-                      {
-                        rank = "kc";
-                      }
-                      if (key===23)
-                      {
-                        rank = "kc";
-                      }
                       return (
-                        <div className={"col-md-3 child_account "+rank} key={key}>
-                        <div className="account wow fadeInUp" data-wow-delay="0.3s">
+                        <div className={"col-md-3 child_account"} key={key}>
+                        <div className="account">
                           <div className="before">
                             <img src={value.imageBefore} alt="for react" />
                           </div>
@@ -229,7 +131,7 @@ class ListAccounts extends Component {
                               <div className="id_acc">
                                 <p>{value.id}</p>
                               </div>
-                              <a href="/" className="hinhminhhoa" data-phanloaihinh={".hinhminhhoa"+(key+1)}>
+                              <a  href="/" className="hinhminhhoa" data-phanloaihinh={".hinhminhhoa"+(key+1)}>
                                 <img src={value.imageAfter} alt="for react" />
                               </a>
                             </div>

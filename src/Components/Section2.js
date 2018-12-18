@@ -1,8 +1,151 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
-
+import { connect } from 'react-redux';
+import Data from "./Data.json";
 
 class Section2 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      searchRank : null,
+      searchKhung : null,
+      searchChamp : null,
+      searchThongThao : null,
+      searchPrice : null
+    }
+  }
+  search=()=>{
+    var data = [];
+    if (this.state.searchRank)
+    {
+      data = [];
+      Data.forEach(item=>{
+        if (item.searchRank===this.state.searchRank)
+        {
+          data.push(item);
+        }
+      })
+      this.props.searchData(data);
+      this.setState({
+        searchRank : null
+      }) 
+    }
+    else if (this.state.searchKhung)
+    {
+      data = [];
+      Data.forEach(item=>{
+        if (item.searchKhung===this.state.searchKhung)
+        {
+          data.push(item);
+        }
+      })
+      this.props.searchData(data);
+      this.setState({
+        searchKhung : null
+      }) 
+    }
+    else if (this.state.searchChamp)
+    {
+      data = [];
+      Data.forEach(item=>{
+        if (item.searchChamp===this.state.searchChamp)
+        {
+          data.push(item);
+        }
+      })
+      this.props.searchData(data);
+      this.setState({
+        searchChamp : null
+      }) 
+    }
+    else if (this.state.searchThongThao)
+    {
+      data = [];
+      Data.forEach(item=>{
+        if (item.searchThongThao===this.state.searchThongThao)
+        {
+          data.push(item);
+        }
+      })
+      this.props.searchData(data);
+      this.setState({
+        searchThongThao : null
+      }) 
+    }
+    else if (this.state.searchPrice)
+    {
+      data = [];
+      Data.forEach(item=>{
+        if (item.searchPrice===this.state.searchPrice)
+        {
+          data.push(item);
+        }
+      })
+      this.props.searchData(data);
+      this.setState({
+        searchPrice : null
+      })
+    } 
+  }
+  isChange=(event)=>{
+    const name  = event.target.name;
+    if (name==="searchRank")
+    {
+      this.setState({
+        searchKhung : null,
+        searchChamp : null,
+        searchThongThao : null,
+        searchPrice : null
+      })
+    }
+    else if (name === "searchKhung")
+    {
+      this.setState({
+        searchRank : null,
+        searchChamp : null,
+        searchThongThao : null,
+        searchPrice : null
+      })
+    }
+    else if (name==="searchChamp")
+    {
+      this.setState({
+        searchRank : null,
+        searchKhung : null,
+        searchThongThao : null,
+        searchPrice : null
+      }) 
+    }
+    else if (name === "searchThongThao")
+    {
+      this.setState({
+        searchChamp : null,
+        searchKhung : null,
+        searchRank : null,
+        searchPrice : null
+      })
+    }
+    else if (name === "searchPrice")
+    {
+      this.setState({
+        searchThongThao : null,
+        searchChamp : null,
+        searchKhung : null,
+        searchRank : null
+      })
+    }
+    const value = event.target.value;
+    this.setState({
+      [name] :value
+    })
+  }
+  displayAll=()=>{
+    var data = [];
+    Data.forEach(item=>{
+      data.push(item);
+    })
+    this.props.searchData(data);
+  }  
     render() {
         return (
 <div className="section2  wow fadeInUp" data-wow-delay="0.6s">
@@ -19,10 +162,7 @@ class Section2 extends Component {
             <div className="form-group">
               <div className="row">
                 <div className="col-md-3">
-                  <input type="text" className="form-control"  aria-describedby="helpId" placeholder="Bạn cần tìm gì ?" />
-                </div>
-                <div className="col-md-3">
-                  <select className="form-control" >
+                  <select onChange={(event)=>this.isChange(event)} name="searchRank"  className="form-control" >
                     <option>Tìm theo rank</option>
                     <option>Chưa rank mùa nào</option>
                     <option>Chưa rank</option>
@@ -36,7 +176,7 @@ class Section2 extends Component {
                   </select>
                 </div>
                 <div className="col-md-3">
-                  <select className="form-control" >
+                  <select name="searchKhung" onChange={(event)=>this.isChange(event)} className="form-control" >
                     <option>Tìm theo khung</option>
                     <option>Chưa khung</option>
                     <option>Đồng</option>
@@ -49,7 +189,7 @@ class Section2 extends Component {
                   </select>
                 </div>
                 <div className="col-md-3">
-                  <select className="form-control" >
+                  <select name="searchChamp" onChange={(event)=>this.isChange(event)} className="form-control" >
                     <option>Tìm theo tướng và IP</option>
                     <option>Nick full tướng</option>
                     <option>Nick nhiều tướng</option>
@@ -57,14 +197,14 @@ class Section2 extends Component {
                   </select>
                 </div>
                 <div className="col-md-3">
-                  <select className="form-control" >
+                  <select name="searchThongThao" onChange={(event)=>this.isChange(event)} className="form-control" >
                     <option>Tìm theo thông thạo</option>
                     <option>Nick nhiều thông thạo 7</option>
                     <option>Nick nhiều thông thạo 6</option>
                   </select>
                 </div>
                 <div className="col-md-3">
-                  <select className="form-control" >
+                  <select name="searchPrice" onChange={(event)=>this.isChange(event)} className="form-control" >
                     <option>Tìm theo giá</option>
                     <option>Từ 10K đến 50K</option>
                     <option>Từ 50K đến 100K</option>
@@ -76,15 +216,15 @@ class Section2 extends Component {
                     <option>Nick vip trên 1 triệu</option>
                   </select>
                 </div>
-                <div className="col-md-3">
-                  <input type="text" className="form-control"  aria-describedby="helpId" placeholder="Nhập tên trang phục" />
-                </div>
               </div>
               <div className="row">
                 <div className="col-12">
-                  <a href="/" className="btn btn-success">
+                  <div onClick={()=>this.search()}  className="btn btn-success">
                     Tìm kiếm
-                  </a>
+                  </div>
+                  <div onClick={()=>this.displayAll()}  className="btn btn-success ml-3">
+                    Hiển thị tất cả
+                  </div>
                 </div>
               </div>
             </div>
@@ -107,5 +247,17 @@ class Section2 extends Component {
         );
     }
 }
+const mapStateToProps = (state, ownProps) => ({
 
-export default Section2;
+})
+const mapDispatchToProps = dispatch => {
+  return {
+    searchData : (data) => {
+      dispatch({
+        type : "searchData",data
+      })
+    }
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Section2)

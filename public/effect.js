@@ -122,20 +122,20 @@ $(function(){
     $hieuung.imagesLoaded().progress( function() {
         $hieuung.isotope('layout');
     });
-    $hieuung1 = $('.father_account').isotope({
-        itemSelector: '.child_account',
-        layoutMode: 'masonry'
-      });
-    $hieuung1.imagesLoaded().progress( function() {
-        $hieuung1.isotope('layout');
-      });
-    $('.loctheorank a').click(function(){
-        $('.loctheorank a').removeClass('active_locrank');
-        $(this).addClass('active_locrank');
-        rank = $(this).data('locrank');
-        $hieuung1.isotope({ filter: rank });
-        return false;
-    })
+    // $hieuung1 = $('.father_account').isotope({
+    //     itemSelector: '.child_account',
+    //     layoutMode: 'masonry'
+    //   });
+    // $hieuung1.imagesLoaded().progress( function() {
+    //     $hieuung1.isotope('layout');
+    //   });
+    // $('.loctheorank a').click(function(){
+    //     $('.loctheorank a').removeClass('active_locrank');
+    //     $(this).addClass('active_locrank');
+    //     rank = $(this).data('locrank');
+    //     $hieuung1.isotope({ filter: rank });
+    //     return false;
+    // })
     $hieuung2 = $('.skin_account').isotope({
         itemSelector: '.skin',
         layoutMode: 'masonry'

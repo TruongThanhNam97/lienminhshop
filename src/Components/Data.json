@@ -7,8 +7,13 @@
         "rank" : "Rank : Kim cương V",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : 50",
-        "card" : "1.000.000đ CARD",
-        "atm" : "800.000 đ ATM "
+        "card" : "25.000đ CARD",
+        "atm" : "20.000 đ ATM ",
+        "searchRank" : "Rank kim cương",
+        "searchKhung" : "Kim cương",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 10K đến 50K"
     },
     {
         "id" : 31746,
@@ -18,19 +23,29 @@
         "rank" : "Rank : Kim cương V",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : 30",
-        "card" : "2.000.000đ CARD",
-        "atm" : "100.000 đ ATM "
+        "card" : "75.000đ CARD",
+        "atm" : "70.000 đ ATM ",
+        "searchRank" : "Rank kim cương",
+        "searchKhung" : "Kim cương",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 50K đến 100K"
     },
     {
         "id" : 31747,
         "imageBefore" : "./images/td1.PNG",
         "imageAfter" : "./images/infoacc.png",
-        "khung" : "Khung : Kim vàng",
+        "khung" : "Khung : Kim cương",
         "rank" : "Rank : Vàng V",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : 50",
-        "card" : "1.000.000đ CARD",
-        "atm" : "100.000 đ ATM "
+        "card" : "150.000đ CARD",
+        "atm" : "100.000 đ ATM ",
+        "searchRank" : "Rank vàng",
+        "searchKhung" : "Kim cương",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 100K đến 200K"
     },
     {
         "id" : 31748,
@@ -40,8 +55,13 @@
         "rank" : "Rank : Bạch kim V",
         "champ" : "Tướng : 110 Tướng",
         "skin" : "Skin : 20",
-        "card" : "100.000đ CARD",
-        "atm" : "100.000 đ ATM "
+        "card" : "250.000đ CARD",
+        "atm" : "200.000 đ ATM ",
+        "searchRank" : "Rank bạch kim",
+        "searchKhung" : "Bạch kim",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 200K đến 300K"
     },
     {
         "id" : 31749,
@@ -51,8 +71,13 @@
         "rank" : "Rank : Bạc 1",
         "champ" : "Tướng : 120 Tướng",
         "skin" : "Skin : 10",
-        "card" : "100.000đ CARD",
-        "atm" : "100.000 đ ATM "
+        "card" : "500.000đ CARD",
+        "atm" : "450.000 đ ATM ",
+        "searchRank" : "Rank bạc",
+        "searchKhung" : "Bạc",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Từ 300K đến 500K"
     },
     {
         "id" : 31750,
@@ -62,8 +87,13 @@
         "rank" : "Rank : Đồng 2",
         "champ" : "Tướng : 90 Tướng",
         "skin" : "Skin : 15",
-        "card" : "500.000đ CARD",
-        "atm" : "500.000 đ ATM "
+        "card" : "600.000đ CARD",
+        "atm" : "550.000 đ ATM ",
+        "searchRank" : "Rank đồng",
+        "searchKhung" : "Đồng",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Từ 500K đến 700K"
     },
     {
         "id" : 31751,
@@ -73,8 +103,13 @@
         "rank" : "Rank : Kim cương 2",
         "champ" : "Tướng : 100 Tướng",
         "skin" : "Skin : 45",
-        "card" : "1.500.000đ CARD",
-        "atm" : "1.500.000 đ ATM "
+        "card" : "1.000.000đ CARD",
+        "atm" : "950.000 đ ATM ",
+        "searchRank" : "Rank kim cương",
+        "searchKhung" : "Kim cương",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Từ 700K đến 1 triệu"
     },
     {
         "id" : 31752,
@@ -85,7 +120,12 @@
         "champ" : "Tướng : 50 Tướng",
         "skin" : "Skin : 10",
         "card" : "1.500.000đ CARD",
-        "atm" : "1.500.000 đ ATM "
+        "atm" : "1.450.000 đ ATM ",
+        "searchRank" : "Rank cao thủ",
+        "searchKhung" : "Cao thủ",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31753,
@@ -96,7 +136,12 @@
         "champ" : "Tướng : 60 Tướng",
         "skin" : "Skin : 12",
         "card" : "5.500.000đ CARD",
-        "atm" : "5.500.000 đ ATM "
+        "atm" : "5.500.000 đ ATM ",
+        "searchRank" : "Rank cao thủ",
+        "searchKhung" : "Cao thủ",
+        "searchChamp" : "Nick thừa nhiều IP",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31754,
@@ -107,7 +152,12 @@
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
         "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "atm" : "10.000.000 đ ATM ",
+        "searchRank" : "Rank thách đấu",
+        "searchKhung" : "Thách đấu",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31755,
@@ -118,139 +168,204 @@
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
         "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "atm" : "10.000.000 đ ATM ",
+        "searchRank" : "Rank thách đấu",
+        "searchKhung" : "Thách đấu",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31756,
         "imageBefore" : "./images/td5.PNG",
         "imageAfter" : "./images/infoacc.png",
         "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "rank" : "Rank : Thách đấu 400",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
         "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "atm" : "10.000.000 đ ATM ",
+        "searchRank" : "Rank thách đấu",
+        "searchKhung" : "Thách đấu",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31757,
         "imageBefore" : "./images/kc1.PNG",
         "imageAfter" : "./images/gold.PNG",
         "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "rank" : "Rank : Thách đấu 900",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
         "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "atm" : "10.000.000 đ ATM ",
+        "searchRank" : "Rank thách đấu",
+        "searchKhung" : "Thách đấu",
+        "searchChamp" : "Nick thừa nhiều IP",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31758,
         "imageBefore" : "./images/codedensang.png",
         "imageAfter" : "./images/gold.PNG",
         "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "rank" : "Rank : Thách đấu 780",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "6.000.000đ CARD",
+        "atm" : "5.550.000 đ ATM ",
+        "searchRank" : "Rank thách đấu",
+        "searchKhung" : "Thách đấu",
+        "searchChamp" : "Nick thừa nhiều IP",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31759,
         "imageBefore" : "./images/bk1.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
+        "khung" : "Khung : Đồng",
         "rank" : "Rank : Thách đấu 600",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "30.000đ CARD",
+        "atm" : "25.000 đ ATM ",
+        "searchRank" : "Rank thách đấu",
+        "searchKhung" : "Đồng",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 10K đến 50K"
     },
     {
         "id" : 31760,
         "imageBefore" : "./images/td1.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Đồng",
+        "rank" : "Rank : Cao thủ 200",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "90.000đ CARD",
+        "atm" : "85.000 đ ATM ",
+        "searchRank" : "Rank cao thủ",
+        "searchKhung" : "Đồng",
+        "searchChamp" : "Nick thừa nhiều IP",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 50K đến 100K"
     },
     {
         "id" : 31761,
         "imageBefore" : "./images/td2.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Vàng",
+        "rank" : "Rank : Vàng III",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "200.000đ CARD",
+        "atm" : "150.000 đ ATM ",
+        "searchRank" : "Rank vàng",
+        "searchKhung" : "Vàng",
+        "searchChamp" : "Nick thừa nhiều IP",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Từ 100K đến 200K"
     },
     {
         "id" : 31762,
         "imageBefore" : "./images/td3.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Vàng",
+        "rank" : "Rank : Vàng II",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "300.000đ CARD",
+        "atm" : "250.000 đ ATM ",
+        "searchRank" : "Rank vàng",
+        "searchKhung" : "Vàng",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Từ 200K đến 300K"
     },
     {
         "id" : 31763,
         "imageBefore" : "./images/td4.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Bạc",
+        "rank" : "Rank : Bạch kim IV",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "500.000đ CARD",
+        "atm" : "450.000 đ ATM ",
+        "searchRank" : "Rank bạch kim",
+        "searchKhung" : "Bạc",
+        "searchChamp" : "Nick full tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 300K đến 500K"
     },
     {
         "id" : 31764,
         "imageBefore" : "./images/td5.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Bạc",
+        "rank" : "Rank : Đồng II",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "700.000đ CARD",
+        "atm" : "650.000 đ ATM ",
+        "searchRank" : "Rank đồng",
+        "searchKhung" : "Bạc",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Từ 500K đến 700K"
     },
     {
         "id" : 31765,
         "imageBefore" : "./images/td6.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Bạc",
+        "rank" : "Rank : Bạc IV",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "1.000.000đ CARD",
+        "atm" : "950.000 đ ATM ",
+        "searchRank" : "Rank bạc",
+        "searchKhung" : "Bạc",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Từ 700K đến 1 triệu"
     },
     {
         "id" : 31766,
         "imageBefore" : "./images/ct1.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Cao thủ",
+        "rank" : "Rank : Bạc I",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "15.000.000đ CARD",
+        "atm" : "14.550.000 đ ATM ",
+        "searchRank" : "Rank bạc",
+        "searchKhung" : "Cao thủ",
+        "searchChamp" : "Nick nhiều tướng",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31767,
         "imageBefore" : "./images/bk1.PNG",
         "imageAfter" : "./images/gold.PNG",
-        "khung" : "Khung : Thách đấu",
-        "rank" : "Rank : Thách đấu 600",
+        "khung" : "Khung : Đồng",
+        "rank" : "Rank : Đồng IV",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "9.000.000đ CARD",
+        "atm" : "9.950.000 đ ATM ",
+        "searchRank" : "Rank kim cương",
+        "searchKhung" : "Đồng",
+        "searchChamp" : "Nick thừa nhiều IP",
+        "searchThongThao" : "Nick nhiều thông thạo 6",
+        "searchPrice" : "Nick vip trên 1 triệu"
     },
     {
         "id" : 31768,
@@ -260,7 +375,12 @@
         "rank" : "Rank : Thách đấu 600",
         "champ" : "Tướng : Full Tướng",
         "skin" : "Skin : Full",
-        "card" : "10.000.000đ CARD",
-        "atm" : "10.000.000 đ ATM "
+        "card" : "17.000.000đ CARD",
+        "atm" : "17.550.000 đ ATM ",
+        "searchRank" : "Rank thách đấu",
+        "searchKhung" : "Thách đấu",
+        "searchChamp" : "Nick thừa nhiều IP",
+        "searchThongThao" : "Nick nhiều thông thạo 7",
+        "searchPrice" : "Nick vip trên 1 triệu"
     }
 ]
