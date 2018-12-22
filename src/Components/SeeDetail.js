@@ -61,17 +61,29 @@ class SeeDetail extends Component {
             </div>
           </div>
           <div className="nv_menu">
-            <ul>
-              <li className="active_nv_menu">
-                <a href="/" className="btn btn-primary">thông tin</a>
-              </li>
-              <li>
-                <a href="/" className="btn btn-primary">Trang phục (46)</a>
-              </li>
-              <li>
-                <a href="/" className="btn btn-primary">Tướng (full tướng)</a>
-              </li>
-            </ul>
+          {
+            this.state.data.map((value,key)=>{
+              if (value.id === parseInt(this.props.match.params.id))
+              {
+                var champ = value.champ.split(" ");
+                var skin = value.skin.split(" ");
+                return (
+                  <ul key={key}>
+                  <li className="active_nv_menu">
+                    <a href="/" className="btn btn-primary">thông tin</a>
+                  </li>
+                  <li>
+                    <a href="/" className="btn btn-primary">{"Trang phục"+" ("+skin[2]+")"}</a>
+                  </li>
+                  <li>
+                    <a href="/" className="btn btn-primary">{"Tướng"+" ("+champ[2]+" "+champ[3]+")"}</a>
+                  </li>
+                </ul>
+                );  
+              }
+              return true;
+            })
+          }
           </div>
           <div className="set_content">
             <ul>
