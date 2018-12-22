@@ -219,10 +219,10 @@ class Section2 extends Component {
               </div>
               <div className="row">
                 <div className="col-12">
-                  <div onClick={()=>this.search()}  className="btn btn-success">
+                  <div onClick={()=>this.search()}  className="btn btn-success btnSearch99">
                     Tìm kiếm
                   </div>
-                  <div onClick={()=>this.displayAll()}  className="btn btn-success ml-3">
+                  <div onClick={()=>this.displayAll()}  className="btn btn-success ml-3 btnSearch99">
                     Hiển thị tất cả
                   </div>
                 </div>
