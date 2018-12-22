@@ -38,8 +38,9 @@ body
 }
 
 .menu a.btn {
-    background: #141414;
-    border-color: #3D414D;
+    background: transparent;
+    border-color: #FABD03;
+    color: #FABD03;
 }
 
 .menu a.btn.btn-primary.xuat {
@@ -49,7 +50,7 @@ body
 
 .menu a.dropdown-item {
     padding: 20px 24px;
-    color: white;
+    color: #FABD03;
     text-transform: uppercase;
     border-bottom: 1px dashed;
 }
@@ -70,14 +71,14 @@ body
     color: #fabd03!important;
 }
 
-.menu a.dropdown-item:hover {background: #111112;color: #ECB50E;}
+.menu a.dropdown-item:hover {background: #111112;color: #ffd555;}
 
 .menu .dropdown-menu.show {
     background: #111112;
 }
 
 .menu a.nav-link {
-    color: white!important;
+    color: #FABD03!important;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     display: block;
@@ -235,7 +236,7 @@ body
 .boccol {
     background: black;
     height: 100%;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
 
 .bocsection2 {
@@ -275,6 +276,17 @@ body
 
 /* Start CSS section3 */
 *{margin:0;padding:0}
+
+.btnSearch99 {
+    background: #d2a315;
+    border: #d2a315;
+    color: black;
+}
+
+.btnSearch99:hover {
+    background: #fabd03;
+    border: #fabd03;
+}
 
 form.form {position: fixed;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%) scale(0.5) !important;background: gray;opacity: 0;visibility: hidden;padding: 25px;z-index: 9999;transition: 0.4s;perspective: 800px;}
 
@@ -352,7 +364,7 @@ iframe.like_fb {
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: #c7c7c7;
 }
 
 .khung_hinh img {
@@ -375,7 +387,7 @@ iframe.like_fb {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dashed #cacaca;
     padding: 20px 0;
     box-sizing: border-box;
 }
@@ -593,6 +605,7 @@ iframe.like_fb {
 
 .check_skin img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .check_skin a {
@@ -611,7 +624,7 @@ iframe.like_fb {
 .check_skin p {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: white;
+    color: #b1b1b1;
     font-size: 18px;
     line-height: 30px;
 }
@@ -621,10 +634,12 @@ iframe.like_fb {
     font-weight: 700;
     color: #fabd03;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 .security img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .security h3 {
@@ -640,7 +655,7 @@ iframe.like_fb {
 }
 
 .security p {
-    color: white;
+    color: #b1b1b1;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -651,7 +666,7 @@ iframe.like_fb {
     color: #fabd03;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .security h2:before {
@@ -667,6 +682,7 @@ iframe.like_fb {
     font-weight: 700;
     font-size: 37px;
     margin-bottom: 30px;
+    padding-top: 10px;
 }
 
 .list_step .card {
@@ -726,6 +742,7 @@ iframe.like_fb {
     font-weight: 700;
     color: #fabd03;
     margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .list_video .video {
@@ -992,8 +1009,8 @@ iframe.like_fb {
     padding: 15px 15px;
     text-transform: uppercase;
     text-decoration: none;
-    background: #E7E8EA;
-    border-color: #E7E8EA;
+    background: #b3b3b3;
+    border-color: #b3b3b3;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -1042,6 +1059,7 @@ iframe.like_fb {
 
 .title_account a.btn {
     display: block;
+    margin-top: 10px;
 }
 
 .title_account [class^='col'] {
@@ -1053,6 +1071,7 @@ iframe.like_fb {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
+    padding-top: 10px;
 }
 
 .title_account h4 {
@@ -1060,21 +1079,23 @@ iframe.like_fb {
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    padding-top: 10px;
 }
 
 .bottom a.btn {
-    background: #138496;
-    border-color: #138496;
+    background: #d8a404;
+    border-color: #d8a404;
+    color: black;
 }
 
 .bottom a.btn:hover {
-    background: #5de7fd;
-    border-color: #5de7fd;
+    background: #ffca29;
+    border-color: #ffca29;
 }
 
 .bottom li.point a.btn {
-    background: #5de7fd;
-    border-color: #5de7fd;
+    background: #ffca29;
+    border-color: #ffca29;
 }
 
 .bottom li {
@@ -1111,16 +1132,16 @@ iframe.like_fb {
     left: 0;
 }
 
-.top ul {position: relative;height: 1620px;}
+.top ul {position: relative;height: 1560px;}
 
 .top .col-md-3 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .phanduoi a.chitiet {
-    background: white;
-    border-color: white;
-    color: #333333;
+    background: #bbb5b5;
+    border-color: #bbb5b5;
+    color: black;
     transition: 0.4s;
 }
 
@@ -1150,11 +1171,12 @@ iframe.like_fb {
 .phanduoi a.muangay:hover {
     background: #FABD03;
     border-color: #FABD03;
+    color: black;
 }
 
 .phanduoi p {
     margin: 0;
-    color: #FF0000;
+    color: #f32828;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -1180,7 +1202,7 @@ iframe.like_fb {
 
 .phangiua p {
     margin-bottom: 5px;
-    color: white;
+    color: #FFCC32;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -1219,8 +1241,9 @@ iframe.like_fb {
 
 .id_acc p {
     margin: 0;
-    color: #0CE3AC;
+    color: #e04654;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .phantren .id_acc {
@@ -1283,7 +1306,8 @@ iframe.like_fb {
 
 
 .section3 {
-    padding: 20px 0px;
+    padding: 0px 0px;
+    padding-bottom: 15px;
 }
 
 .socialnetwork .fa {
@@ -1291,7 +1315,7 @@ iframe.like_fb {
 }
 
 .socialnetwork a.fb {
-    background: #3B5998;
+    background: #DD4B39;
     transition: 0.4s;
 }
 
@@ -1305,11 +1329,11 @@ iframe.like_fb {
 }
 
 .socialnetwork a.tw:hover {
-    background: #55ACEE;
+    background: #C23321;
 }
 
 .socialnetwork a.fb:hover {
-    background: #2D4373;
+    background: #C23321;
 }
 
 .socialnetwork a {
@@ -1364,7 +1388,7 @@ iframe.like_fb {
 }
 
 .footer p {
-    color: #474747;
+    color: #6E6E6E;
     margin-bottom: 14px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -1373,6 +1397,7 @@ iframe.like_fb {
 .footer {
     background: #080808;
     padding: 20px 0px;
+    margin-top: 15px;
 }
 /* End CSS footer */
 
@@ -1642,7 +1667,7 @@ iframe.like_fb {
 }
 
 .top ul {
-    height: 6480px;
+    height: 6230px;
 }
 
 .phanduoi a.btn {
