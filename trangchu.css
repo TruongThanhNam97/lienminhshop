@@ -56,7 +56,9 @@ body
 }
 
 .menu a.dropdown-item.xuat {
-    color: #f2b703;
+    background: #FABD03;
+    color: black;
+    border-radius: 5px;
 }
 
 .menu li.nav-item.active a.dropdown-item {
@@ -149,7 +151,7 @@ body
 }
 
 .list p.ten {
-    color: #878787;
+    color: #c7c7c7;
 }
 
 .list p {
@@ -159,7 +161,7 @@ body
 }
 
 .list p.gia {
-    color: #FF1616;
+    color: #ff394b;
     font-weight: 700;
 }
 
@@ -231,6 +233,9 @@ body
 .section2 .form-control {
     font-size: 12px;
     height: 38px;
+    background: #cecece;
+    border: #cecece;
+    color: black;
 }
 
 .boccol {
@@ -624,7 +629,7 @@ iframe.like_fb {
 .check_skin p {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #b1b1b1;
+    color: #c7c7c7;
     font-size: 18px;
     line-height: 30px;
 }
@@ -635,6 +640,7 @@ iframe.like_fb {
     color: #fabd03;
     margin-bottom: 20px;
     padding-top: 10px;
+    font-size: 25px;
 }
 
 .security img {
@@ -647,6 +653,7 @@ iframe.like_fb {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #fabd03;
+    font-size: 25px;
 }
 
 .security a {
@@ -655,11 +662,11 @@ iframe.like_fb {
 }
 
 .security p {
-    color: #b1b1b1;
+    color: #c7c7c7;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .security h2 {
@@ -667,6 +674,7 @@ iframe.like_fb {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 25px;
+    line-height: 40px;
 }
 
 .security h2:before {
@@ -683,6 +691,7 @@ iframe.like_fb {
     font-size: 37px;
     margin-bottom: 30px;
     padding-top: 10px;
+    line-height: 50px;
 }
 
 .list_step .card {
@@ -1066,7 +1075,7 @@ iframe.like_fb {
 }
 
 .title_account p {
-    color: red;
+    color: #ff394b;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -1176,15 +1185,19 @@ iframe.like_fb {
 
 .phanduoi p {
     margin: 0;
-    color: #f32828;
+    color: #ff394b;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 13px;
+    text-align: center;
 }
 
 .phanduoi .col-6 {
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .phanduoi .row {
@@ -1353,7 +1366,7 @@ iframe.like_fb {
 }
 
 .time span {
-    color: #B1B1B1;
+    color: #FABD03;
     font-size: 15px;
     font-weight: 700px;
 }
@@ -1388,7 +1401,7 @@ iframe.like_fb {
 }
 
 .footer p {
-    color: #6E6E6E;
+    color: #c7c7c7;
     margin-bottom: 14px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -1515,6 +1528,10 @@ iframe.like_fb {
     *{
 }
 
+.list p {font-size: 11px!important;}
+
+.fa.fa-times {}
+
 .question_content b {
     font-size: 13px;
 }
@@ -1565,7 +1582,7 @@ iframe.like_fb {
 }
 
 .form .back {
-    right: 6%;
+    right: 8%;
     top: 76%;
 }
 
@@ -1586,7 +1603,7 @@ iframe.like_fb {
 }
 
 .security h3 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .security p {
@@ -1596,6 +1613,7 @@ iframe.like_fb {
 
 .security h2 {
     font-size: 18px;
+    line-height: 30px;
 }
 
 .security h2:before {
@@ -1604,6 +1622,7 @@ iframe.like_fb {
 
 .security h1 {
     font-size: 24px;
+    line-height: 40px;
 }
 
 .list_step .card {
@@ -1868,7 +1887,7 @@ a#dropdownId {
 }
 
 .list p {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .menu a.nav-link {
