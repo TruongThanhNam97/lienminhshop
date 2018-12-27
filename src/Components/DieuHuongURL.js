@@ -8,14 +8,13 @@ import SecurityAccount from "./SecurityAccount";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Question from "./Question";
 import SeeDetail from "./SeeDetail";
-import App from './App';
 
 
 class DieuHuongURL extends Component {
     render() {
         return (
             <div>
-                <Route exact path="/"  component={App}/>
+                <Route exact path="/"  component={ListAccounts}/>
                 <Route path="/listaccounts"  component={ListAccounts} />
                 <Route path="/ownershop" component={OwnerShop} />
                 <Route path="/checkskin" component={CheckSkin} />
