@@ -8,11 +8,11 @@ class ConductBuyAccount extends Component {
     <div className="list_video">
       <div className="video">
         <h1>HƯỚNG DẪN MUA ACC BẰNG THẺ ĐIỆN THOẠI : </h1>
-        <video src="./lienminhshop/videos/vid1.mp4" controls width="100%"  />
+        <video src="./videos/vid1.mp4" controls width="100%"  />
       </div>
       <div className="video">
         <h1>HƯỚNG DẪN MUA BẰNG THẺ ATM - CHUYỂN KHOẢN </h1>
-        <video src="./lienminhshop/videos/vid2.mp4" controls width="100%"  />
+        <video src="./videos/vid2.mp4" controls width="100%"  />
       </div>
     </div>
     <div className="list_step">
