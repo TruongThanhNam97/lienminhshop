@@ -17,7 +17,7 @@ class Menu extends Component {
       <div className="collapse navbar-collapse" id="collapsibleNavId">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item">
-            <NavLink activeClassName="xuat" className="nav-link active" to="/listaccounts">trang chủ</NavLink>
+            <NavLink activeClassName="xuat" className="nav-link xuat" to="/listaccounts">trang chủ</NavLink>
           </li>
           <li className="nav-item">
             <NavLink activeClassName="xuat" className="nav-link" to="/ownershop">thông tin shop</NavLink>
