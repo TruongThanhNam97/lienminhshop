@@ -14,7 +14,7 @@ class DieuHuongURL extends Component {
     render() {
         return (
             <div>
-                <Route path="/listaccounts" exact component={ListAccounts}/>
+                <Route path="/" exact component={ListAccounts}/>
                 <Route path="/listaccounts"  component={ListAccounts} />
                 <Route path="/ownershop" component={OwnerShop} />
                 <Route path="/checkskin" component={CheckSkin} />
