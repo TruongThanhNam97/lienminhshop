@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import data from "./Ques.json";
+import { NavLink } from "react-router-dom";
 
 
 class Question extends Component {
@@ -26,11 +27,11 @@ class Question extends Component {
                   if (key <= 8) {
                     return (
                       <div className="question wow fadeInUp" key={key}>
-                        <a href="/" className="khung_hinh">
+                        <NavLink to="/conductbuyaccount" className="khung_hinh">
                           <img src={value.image} alt="for react" />
-                        </a>
+                        </NavLink>
                         <div className="question_content">
-                          <a href="/">{value.title}</a>
+                        <NavLink to="/conductbuyaccount">{value.title}</NavLink>
                           <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
                           <br />
                           <span>{value.user} <b>|</b> {value.time}</span>
@@ -49,11 +50,11 @@ class Question extends Component {
                   if (key >= 9) {
                     return (
                       <div className="question wow fadeInUp" key={key}>
-                        <a href="/" className="khung_hinh">
+                        <NavLink to="/conductbuyaccount" className="khung_hinh">
                           <img src={value.image} alt="for react" />
-                        </a>
+                        </NavLink>
                         <div className="question_content">
-                          <a href="/">{value.title}</a>
+                          <NavLink to="/conductbuyaccount">{value.title}</NavLink>
                           <iframe title="/" className="like_fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width={450} height={80} style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameBorder={0} allowtransparency="true" allow="encrypted-media" />
                           <br />
                           <span>{value.user} <b>|</b> {value.time}</span>
