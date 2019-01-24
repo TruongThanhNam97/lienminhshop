@@ -4,7 +4,7 @@ class Login extends Component {
   componentWillMount() {
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
-    script.src = "./";
+    script.src = "./effect.js";
     head.appendChild(script);
   }
   render() {
