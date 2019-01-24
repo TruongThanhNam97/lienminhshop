@@ -6,7 +6,7 @@ var redux = require("redux");
 var allReducers = redux.combineReducers({
     listData : listDataReducer,
     listUser : listUserReducer,
-    listQuestion : listQuestionReducer;
+    listQuestion : listQuestionReducer
 })
 var store = redux.createStore(allReducers);
 
