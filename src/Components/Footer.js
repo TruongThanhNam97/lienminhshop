@@ -7,7 +7,7 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <p>Địa chỉ: 166c Nguyễn Thái Sơn P.4 Q.Gò Vấp</p>
+              <p>Địa chỉ: Tp.Hồ Chí Minh Quận Gò Vấp</p>
               <p>© 2018, Copyright by Bán Acc Liên Minh Huyền Thoại Giá Rẻ - Uy Tín.</p>
               <div className="hotline">
                 <div className="row">
