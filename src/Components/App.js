@@ -16,17 +16,17 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-      <div >
-        <Menu></Menu>
-        <Section1></Section1>
-        <Section2></Section2>
-        <DieuHuongURL></DieuHuongURL>
-        <Fb></Fb>
-        <Footer></Footer>
-        <ButtonUp></ButtonUp>
-        <FormBuy></FormBuy>
-        <ImageIllustration></ImageIllustration>
-      </div>
+        <div >
+          <Menu></Menu>
+          <Section1></Section1>
+          <Section2></Section2>
+          <DieuHuongURL></DieuHuongURL>
+          <Fb></Fb>
+          <Footer></Footer>
+          <ButtonUp></ButtonUp>
+          <FormBuy></FormBuy>
+          <ImageIllustration></ImageIllustration>
+        </div>
       </HashRouter>
     );
   }

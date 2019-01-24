@@ -45,10 +45,10 @@ class Section1 extends Component {
           </ol>
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
-              <img src="./images/1.png" alt="First slide" />
+              <img src="/images/1.png" alt="First slide" />
             </div>
             <div className="carousel-item">
-              <img src="./images/2.jpg" alt="Second slide" />
+              <img src="/images/2.jpg" alt="Second slide" />
             </div>
           </div>
         </div>
