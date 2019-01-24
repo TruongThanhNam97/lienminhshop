@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lienminhshop/precache-manifest.af68da071f8e99731d6c0eb5d5e33b50.js"
+  "/lienminhshop/precache-manifest.3aa7489974661eff97d2162ce19eae1e.js"
 );
 
 workbox.clientsClaim();
