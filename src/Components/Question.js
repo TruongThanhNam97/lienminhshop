@@ -7,7 +7,7 @@ class Question extends Component {
   componentWillMount() {
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
-    script.src = "/effect.js";
+    script.src = "./";
     head.appendChild(script);
     this.props.getQuestion(data);
   }
