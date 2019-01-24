@@ -81,7 +81,7 @@ $(function(){
             $('.hinhminhhoa_to').removeClass('appear_hinhminhhoa_to');
         }
       });
-    $('.champion').append('<img class=swap_image src=https://truongthanhnam97.github.io/lienminhshop./images/transparent.png>');
+    $('.champion').append('<img class=swap_image src=https://truongthanhnam97.github.io/lienminhshop/images/transparent.png>');
     var count =0;
     $('.button_next').click(function(){
         soluonganh = $(this).parent().children('img').length;
