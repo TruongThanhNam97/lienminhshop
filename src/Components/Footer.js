@@ -13,7 +13,7 @@ class Footer extends Component {
                 <div className="row">
                   <div className="col-6">
                     <div className="phone">
-                      <img src="/images/phone.png" alt="for react" />
+                      <img src="./images/phone.png" alt="for react" />
                       <div className="khoitext">
                         <h3>Hotline: 0943802073</h3>
                         <h3>Trương Thanh Nam</h3>

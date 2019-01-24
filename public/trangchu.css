@@ -12,7 +12,7 @@ html,body
 }
 body
 {
-    background: url("./images/anhnen.jpg") top center no-repeat black;
+    background: url("../images/anhnen.jpg") top center no-repeat black;
     background-size: cover;
 }
 
