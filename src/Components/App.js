@@ -5,7 +5,7 @@ import Section1 from './Section1';
 import Section2 from './Section2';
 import Footer from './Footer';
 import ButtonUp from './ButtonUp';
-import { Router } from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import DieuHuongURL from './DieuHuongURL';
 import ImageIllustration from './ImageIllustration';
 import FormBuy from './FormBuy';
