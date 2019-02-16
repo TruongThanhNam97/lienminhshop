@@ -8,13 +8,12 @@ class SeeDetail extends Component {
       data: Data
     }
   }
-  componentWillMount() {
+  componentDidMount() {
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
     script.src = "./effect.js";
     head.appendChild(script);
   }
-
   render() {
     return (
       <div className="section3 wow fadeInUp" data-wow-delay="0.8s">

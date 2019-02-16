@@ -15,14 +15,14 @@ class DieuHuongURL extends Component {
         return (
             <div>
                 <Route exact path="/" component={ListAccounts} />
-                <Route path="/listaccounts" component={ListAccounts} />
-                <Route path="/ownershop" component={OwnerShop} />
-                <Route path="/checkskin" component={CheckSkin} />
-                <Route path="/login" component={Login} />
-                <Route path="/conductbuyaccount" component={ConductBuyAccount} />
-                <Route path="/securityaccount" component={SecurityAccount} />
-                <Route path="/question" component={Question} />
-                <Route path="/seedetail/:slug.:id.html" component={SeeDetail} />
+                <Route exact path="/listaccounts" component={ListAccounts} />
+                <Route exact path="/ownershop" component={OwnerShop} />
+                <Route exact path="/checkskin" component={CheckSkin} />
+                <Route exact path="/login" component={Login} />
+                <Route exact path="/conductbuyaccount" component={ConductBuyAccount} />
+                <Route exact path="/securityaccount" component={SecurityAccount} />
+                <Route exact path="/question" component={Question} />
+                <Route exact path="/seedetail/:slug.:id.html" component={SeeDetail} />
             </div>
         );
     }

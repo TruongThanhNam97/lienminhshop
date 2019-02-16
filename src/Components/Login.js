@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Login extends Component {
-  componentWillMount() {
+  componentDidMount() {
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
     script.src = "./effect.js";

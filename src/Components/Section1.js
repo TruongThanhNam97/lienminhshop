@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import data from "./User.json";
 
 class Section1 extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.getUser(data);
   }
     render() {
